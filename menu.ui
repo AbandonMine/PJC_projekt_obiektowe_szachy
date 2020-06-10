@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Menu</class>
+ <widget class="QMainWindow" name="Menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Menu</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QRadioButton" name="tryb_klasyczny_in">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>130</y>
+      <width>111</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>szachy klasyczne</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="tryb_960_in">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>130</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>szachy 960</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="wybor_rozgrywki">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>40</y>
+      <width>221</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>gracz vs komputer</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>gracz vs gracz - lokalnie</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>gracz vs gracz - przez_siec</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="port_text">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>230</y>
+      <width>221</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Podaj numer portu:</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>692</x>
+      <y>-20</y>
+      <width>21</width>
+      <height>711</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exit_button">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>620</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Wyjdz z aplikacji!</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="port_in">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>260</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>10</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rodzaj_gry:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="wybor_net">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>300</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Hostuj.</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dolacz do gry</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="rozpocznij_gre">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>580</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rozpocznij grę!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>100</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tryb gry:</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="ip_in">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>190</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ip_text">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>160</y>
+      <width>221</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Podaj adres ip:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="logo_label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>521</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Logo_place_holder</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
