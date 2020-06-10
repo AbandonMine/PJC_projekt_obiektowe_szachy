@@ -2,10 +2,7 @@
 #define WIEZA_H
 #include "figura_z_ogranieczniami.h"
 
-//! Klasa Wieza
-/*!
- * \brief Klasa implementująca bierkę - wieżę. Klasa pochodna klasy figura z ograniczeniami.
- */
+//! Klasa implementująca bierkę - wieżę.
 
 class Wieza : public Figura_z_ogranieczniami
 {

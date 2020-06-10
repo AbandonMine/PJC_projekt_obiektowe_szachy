@@ -13,10 +13,7 @@
 #include <vector>
 using namespace std;
 
-//! Klasa Gra_model
-/*!
- * \brief Klasa odpowiadająca za implementacje modelu we wzorcu MVC.
- */
+//! Klasa odpowiadająca za implementacje modelu we wzorcu MVC.
 class Gra_model
 {
 public:

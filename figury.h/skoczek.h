@@ -2,11 +2,7 @@
 #define SKOCZEK_H
 #include "figura.h"
 
-//! Klasa Skoczek
-/*!
- * \brief Klasa implementująca bierkę - skoczka. Klasa pochodna klasy figura.
- */
-
+//!  Klasa implementująca bierkę - skoczka.
 class Skoczek : public Figura
 {
 public:

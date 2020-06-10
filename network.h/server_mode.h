@@ -2,10 +2,7 @@
 #define SERVER_MODE_H
 #include "gra_network.h"
 
-//! Klasa Server_mode
-/*!
- * \brief Klasa odpowiedzialna za komunikację sieciową jako serwer. Klasa pochodna klasy Gra_network.
- */
+//! Klasa odpowiedzialna za komunikację sieciową jako serwer.
 class Server_mode : public Gra_network
 {
     Q_OBJECT

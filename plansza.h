@@ -13,10 +13,7 @@
 
 class Ruch;
 
-//! Klasa Plansza
-/*!
- * \brief Klasa implementująca szachownicę.
- */
+//! Klasa implementująca szachownicę.
 class Plansza
 {
 public:

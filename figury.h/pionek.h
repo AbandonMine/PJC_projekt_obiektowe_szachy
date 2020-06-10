@@ -2,11 +2,7 @@
 #define PIONEK_H
 #include "figura_z_ogranieczniami.h"
 
-//! Klasa Pionek
-/*!
- * \brief Klasa implementująca bierkę - pionek. Klasa pochodna klasy figura z ograniczeniami.
- */
-
+//! Klasa implementująca bierkę - pionek.
 class Pionek : public Figura_z_ogranieczniami
 {
 public:

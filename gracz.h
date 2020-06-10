@@ -3,10 +3,7 @@
 #include "ruch.h"
 using namespace std;
 
-//! Klasa Gracz
-/*!
- * \brief Abstrakcyjna klasa implementująca gracza biorącego udział w partii szachów.
- */
+//! Abstrakcyjna klasa implementująca gracza biorącego udział w partii szachów.
 class Gracz
 {
 public:

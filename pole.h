@@ -3,6 +3,7 @@
 #include <iostream>
 class Figura;
 
+//! Klasa implementująca pole planszy.
 class Pole
 {
 public:

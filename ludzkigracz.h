@@ -2,10 +2,7 @@
 #define LUDZKIGRACZ_H
 #include "gracz.h"
 
-//! Klasa LudzkiGracz
-/*!
- * \brief Implementacja gracza sterowanego przez człowieka. Klasa pochodna klasy Gracz.
- */
+//! Klasa implementujaca gracza sterowanego przez człowieka.
 class LudzkiGracz : public Gracz
 {
 public:

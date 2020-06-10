@@ -8,10 +8,7 @@ namespace Ui {
 class Wczytanie_fen;
 }
 
-//! Klasa Wczytywanie_fen
-/*!
- * \brief Klasa odpowiedzialna za graficzny interfejs użytkownika przy wczytywaniu kodu FEN. Klasa pochodna klasy QDialog.
- */
+//! Klasa odpowiedzialna za graficzny interfejs użytkownika przy wczytywaniu kodu FEN.
 class Wczytanie_fen : public QDialog
 {
     Q_OBJECT

@@ -2,11 +2,7 @@
 #define FIGURA_Z_OGRANIECZNIAMI_H
 #include "figura.h"
 
-//! Klasa Figura_z_ograniczeniami
-/*!
- * \brief Abstrakcyjna klasa reprezentująca figury z pewnymi ograniczeniami możliwości ruchu, jeżeli zostały ruszone. Klasa pochodna klasy figura.
- */
-
+//! Abstrakcyjna klasa reprezentująca figury z pewnymi ograniczeniami możliwości ruchu, jeżeli zostały ruszone.
 class Figura_z_ogranieczniami : public Figura
 {
 public:

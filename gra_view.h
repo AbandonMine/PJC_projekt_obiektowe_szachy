@@ -10,10 +10,8 @@
 #include <QListWidget>
 
 
-//! Klasa Gra_view
-/*!
- * \brief Klasa odpowiadająca za implementacje widoku we wzorcu MVC.
- */
+//! Klasa odpowiadająca za implementacje widoku we wzorcu MVC.
+
 class Gra_view
 {
 public:

@@ -2,10 +2,7 @@
 #define CLIENT_MODE_H
 #include "gra_network.h"
 
-//! Klasa Client_mode
-/*!
- * \brief Klasa odpowiedzialna za komunikację sieciową jako klient. Klasa pochodna klasy Gra_network.
- */
+//! Klasa odpowiedzialna za komunikację sieciową jako klient.
 class Client_mode : public Gra_network
 {
     Q_OBJECT

@@ -8,10 +8,7 @@ namespace Ui {
 class Menu;
 }
 
-//! Klasa Menu
-/*!
- * \brief Klasa odpowiedzialna za implementację menu startowego programu. Klasa pochodna klasy QMainWindow.
- */
+//! Klasa odpowiedzialna za implementację menu startowego programu.
 class Menu : public QMainWindow
 {
     Q_OBJECT

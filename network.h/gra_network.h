@@ -8,10 +8,7 @@
 #include <iostream>
 using namespace std;
 
-//! Klasa Gra_network
-/*!
- * \brief Klasa odpowiadająca za obsługę funkcji sieciowych gry. Klasa pochodna klasy QObject.
- */
+//!  Klasa odpowiadająca za obsługę funkcji sieciowych gry.
 class Gra_network : public QObject
 {
     Q_OBJECT

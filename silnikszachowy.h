@@ -3,11 +3,7 @@
 #include "gracz.h"
 
 
-//! Klasa LudzkiGracz
-/*!
- * \brief Implementacja gracza sterowanego przez silnik szachowy. W obecnej wersji programu silnik nie został zaimplementowany i klasa zachowuje się tak samo jak klasa LudzkiGracz. Klasa pochodna klasy Gracz.
- */
-
+//! W obecnej wersji programu silnik nie został zaimplementowany, klasa stanowi placeholder.
 class SilnikSzachowy : public Gracz
 {
 public:

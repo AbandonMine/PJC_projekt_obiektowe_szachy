@@ -2,10 +2,7 @@
 #define GONIEC_H
 #include "figura.h"
 
-//! Klasa Goniec
-/*!
- * \brief Klasa implementująca bierkę - gońca. Klasa pochodna klasy figura.
- */
+//!  Klasa implementująca bierkę - gońca.
 class Goniec : public Figura
 {
 public:

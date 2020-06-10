@@ -2,11 +2,7 @@
 #define KROL_H
 #include "figura_z_ogranieczniami.h"
 
-//! Klasa Krol
-/*!
- * \brief Klasa implementująca bierkę - króla. Klasa pochodna klasy figura z ograniczeniami.
- */
-
+//! Klasa implementująca bierkę - króla.
 class Krol : public Figura_z_ogranieczniami
 {
 public:

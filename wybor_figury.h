@@ -7,10 +7,7 @@ namespace Ui {
 class Wybor_figury;
 }
 
-//! Klasa Wybor_figury
-/*!
- * \brief f Klasa odpowiedzialna za graficzny interfejs użytkownika przy wyborze typu figury do promowania. Klasa pochodna klasy QMainWindow.
- */
+//! Klasa odpowiedzialna za graficzny interfejs użytkownika przy wyborze figury przy promowaniu pionka.
 class Wybor_figury : public QMainWindow
 {
     Q_OBJECT

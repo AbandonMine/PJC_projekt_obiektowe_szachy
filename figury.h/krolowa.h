@@ -2,11 +2,7 @@
 #define KROLOWA_H
 #include "figura.h"
 
-//! Klasa Krolowa
-/*!
- * \brief Klasa implementująca bierkę - królową. Klasa pochodna klasy figura.
- */
-
+//! Klasa implementująca bierkę - królową.
 class Krolowa : public Figura
 {
 public:

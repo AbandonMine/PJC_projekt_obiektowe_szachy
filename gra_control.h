@@ -17,10 +17,7 @@ namespace Ui {
 class Gra_control;
 }
 
-//! Klasa Gra_control
-/*!
- * \brief Klasa odpowiadająca za implementacje kontrolera we wzorcu MVC. Pochodna klasy QMainWindow.
- */
+//! Klasa odpowiadająca za implementacje kontrolera we wzorcu MVC.
 class Gra_control : public QMainWindow
 {
     Q_OBJECT

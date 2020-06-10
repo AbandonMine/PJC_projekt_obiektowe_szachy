@@ -5,11 +5,7 @@
 #include <pole.h>
 using namespace std;
 
-//! Klasa Figura.
-/*!
- * \brief Abstrakcyjna klasa figury zapewniająca wszystkie funkcjonalności wspólne dla wszystkich bierek.
- */
-
+//! Abstrakcyjna klasa figury zapewniająca wszystkie funkcjonalności wspólne dla wszystkich bierek.
 class Figura
 {
 public:

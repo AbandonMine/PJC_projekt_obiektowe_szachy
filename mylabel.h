@@ -5,10 +5,7 @@
 #include <QLabel>
 #include <QMouseEvent>
 
-//! Klasa MyLabel
-/*!
- * \brief Klasa odpowiedzialana za wyświetlanie w gui planszy oraz śledzenie akcji myszki w jej obrębie. Klasa pochodna klasy QLabel.
- */
+//! Klasa odpowiedzialana za wyświetlanie w gui planszy oraz śledzenie akcji myszki w jej obrębie.
 class MyLabel : public QLabel
 {
     Q_OBJECT

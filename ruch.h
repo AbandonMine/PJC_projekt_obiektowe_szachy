@@ -5,10 +5,7 @@
 #include <iostream>
 using namespace std;
 
-//! Klasa Ruch
-/*!
- * \brief Klasa będacą implementacją ruchu wykonanego w grze.
- */
+//! Klasa będacą implementacją ruchu wykonanego w grze.
 class Ruch
 {
 public:
